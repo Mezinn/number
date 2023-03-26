@@ -5,6 +5,6 @@
         xsi:noNamespaceSchemaLocation="https://getpsalm.org/schema/config.xsd"
 >
     <projectFiles>
-        <directory name="package" />
+        <directory name="src" />
     </projectFiles>
 </psalm>

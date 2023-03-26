@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace mezinn\number\test;
+
 use mezinn\number\Number;
 use mezinn\number\NumberFormatter;
 use PHPUnit\Framework\TestCase;

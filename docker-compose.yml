@@ -4,8 +4,8 @@ services:
   php:
     tty: true
     build:
-      context: php
+      context: .
     volumes:
-      - ../src:/var/www
+      - .:/var/www
     working_dir: /var/www
     user: www-data

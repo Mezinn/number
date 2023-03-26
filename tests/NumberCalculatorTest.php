@@ -2,6 +2,9 @@
 
 declare(strict_types=1);
 
+namespace mezinn\number\test;
+
+use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
 use mezinn\number\NumberCalculator;
 use mezinn\number\Number;
@@ -147,7 +150,7 @@ class NumberCalculatorTest extends TestCase
         $calculator = new NumberCalculator($factory);
 
         $a = $factory->create('12.34');
-        $b = $factory->create('5.670',);
+        $b = $factory->create('5.670');
 
         $result = $calculator->multiply($a, $b);
 

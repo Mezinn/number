@@ -2,6 +2,9 @@
 
 declare(strict_types=1);
 
+namespace mezinn\number\test;
+
+use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
 use mezinn\number\NumberFactory;
 use mezinn\number\Number;
