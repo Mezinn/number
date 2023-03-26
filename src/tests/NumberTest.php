@@ -2,8 +2,6 @@
 
 declare(strict_types=1);
 
-namespace mezinn\tests;
-
 use PHPUnit\Framework\TestCase;
 use mezinn\number\Number;
 

@@ -11,9 +11,8 @@ final class Number
 
     public function __construct(
         string $value,
-        int    $precision
-    )
-    {
+        int $precision
+    ) {
         $this->value = $value;
         $this->precision = $precision;
     }

@@ -9,9 +9,8 @@ final class NumberFormatter
     public function format(
         Number $number,
         string $separator = ',',
-        bool   $forceSign = false
-    ): string
-    {
+        bool $forceSign = false
+    ): string {
         $value = $number->getValue();
         $isNegative = false;
         $decimal = '';
